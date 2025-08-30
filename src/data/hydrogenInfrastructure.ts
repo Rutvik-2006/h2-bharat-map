@@ -231,7 +231,6 @@ export const allInfrastructure: InfrastructureItem[] = [
   ...pipelineProjects
 ];
 
-// Site recommendation data
 export interface SiteRecommendation {
   id: string;
   name: string;
