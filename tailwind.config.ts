@@ -52,6 +52,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				/* Hydrogen Infrastructure Theme */
+				hydrogen: {
+					primary: 'hsl(var(--hydrogen-primary))',
+					secondary: 'hsl(var(--hydrogen-secondary))',
+					accent: 'hsl(var(--hydrogen-accent))',
+					success: 'hsl(var(--hydrogen-success))',
+					warning: 'hsl(var(--hydrogen-warning))'
+				},
+				infrastructure: {
+					plant: 'hsl(var(--plant-color))',
+					storage: 'hsl(var(--storage-color))',
+					pipeline: 'hsl(var(--pipeline-color))',
+					renewable: 'hsl(var(--renewable-color))',
+					demand: 'hsl(var(--demand-color))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

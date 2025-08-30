@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Hydrogen-themed variants
+        hydrogen: "bg-hydrogen-primary text-white hover:bg-hydrogen-primary/90 shadow-infrastructure",
+        "hydrogen-accent": "bg-hydrogen-accent text-white hover:bg-hydrogen-accent/90 shadow-glow",
+        "hydrogen-outline": "border border-hydrogen-accent text-hydrogen-accent bg-transparent hover:bg-hydrogen-accent hover:text-white",
       },
       size: {
         default: "h-10 px-4 py-2",
